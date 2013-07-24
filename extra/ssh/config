@@ -1,0 +1,4 @@
+ForwardAgent yes
+Host *
+  ServerAliveInterval 120
+  User smith
