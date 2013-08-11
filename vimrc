@@ -36,6 +36,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-tbone'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'Shutnik/jshint2.vim'
+Bundle 'msanders/snipmate.vim'
 
 Bundle 'csv.vim'
 Bundle 'LargeFile'
@@ -44,6 +45,8 @@ Bundle 'TwitVim'
 
 filetype plugin indent on
 
+" open a NERDTree automatically when vim starts up
+autocmd vimenter * NERDTree
 " General options
 set autoread
 set hidden
